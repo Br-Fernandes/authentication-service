@@ -19,6 +19,7 @@ public class LoginUserDto implements UserDetails {
 
     private String email;
     private String password;
+    private boolean enabled;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
